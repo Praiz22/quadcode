@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Digital Library</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6f2ff;
+            color: #333;
+        }
+
+        header {
+            background-color: #3399ff;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2em 0;
+        }
+
+        .about, .mission, .team {
+            background-color: white;
+            margin: 1em 0;
+            padding: 2em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #3399ff;
+            margin-top: 0;
+        }
+
+        .team-members {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .member {
+            text-align: center;
+            margin: 1em;
+        }
+
+        .member img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .member h3 {
+            margin: 0.5em 0 0.2em;
+        }
+
+        footer {
+            background-color: #3399ff;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .team-members {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .member {
+                margin: 1em 0;
+            }
+        }
+        .bottom-button-container {
+            bottom: 0;
+            width: 100%;
+            background-color: #0462c0; 
+            text-align: center;
+            padding: 10px 0;
+            z-index: 1000;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            color: aliceblue;
+        }
+        .praix{
+            color: rgb(229, 255, 0);
+            font-family: Gabriola;
+            font-size: 1.3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+    </header>
+    <section class="about">
+        <div class="container">
+            <h2>Welcome to Quadcode Digital Library</h2>
+            <p>Quadcode Digital Library is a one-stop platform that provides access to thousands of books, journals, and articles. We are committed to making knowledge accessible to everyone, everywhere.</p>
+        </div>
+    </section>
+    <section class="mission">
+        <div class="container">
+            <h2>Our Mission</h2>
+            <p>Our mission is to empower readers by providing easy access to a wide range of digital resources. We believe that knowledge is a fundamental right and strive to make our library a resourceful and inclusive space for all.</p>
+        </div>
+    </section>
+    <section class="team">
+        <div class="container">
+            <h2>Meet Our Team</h2>
+            <div class="team-members">
+                <div class="member">
+                    <img src="dj.jpg" alt="korede">
+                    <h3>Kabiru Korede</h3>
+                    <p>Founder & CEO</p>
+                </div>
+                <div class="member">
+                    <img src="boss2.jpg" alt="praix grafix">
+                    <h3>Praise Oladokun</h3>
+                    <p>Chief Librarian</p>
+                </div>
+                <div class="member">
+                    <img src="eliza.png" alt="Elizabeth">
+                    <h3>Elizabeth</h3>
+                    <p>Technical Lead</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="bottom-button-container">
+        <h2>Quad Code</h2>
+        <p>Providing you the most ultimate experience..</p>
+        <hr>
+        <h3>Get In Touch</h3>
+        <p> Peace palace Hostel, Stadium, Ogbomoso</p>
+        <p><a href="Tel:09034035002"class="praix">+234(0) 903-403-5002
+                        <br>
+        <a href="Tel:09045048954" class="praix">+234(0) 816-420-8524</a></p><br>
+        <span>Send a mail to<a href="mailto:praiseola22@gmail.com" class="praix">quadcode@gmail.com</a></span>
+        </p>
+        <hr>
+        <p>&copy; Copyright 2023 Quad codes|</p>
+        </div>
+</body>
+</html>
